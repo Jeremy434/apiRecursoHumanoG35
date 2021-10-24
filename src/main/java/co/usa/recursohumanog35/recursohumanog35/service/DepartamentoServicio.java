@@ -55,9 +55,7 @@ public class DepartamentoServicio {
 
     }
     return dpto;
-    
-    public boolean deleteDepartamento (int numId){
-        Optional<Departamento>consulta=departamentoRepositorio.getDepartamento(numId)
+   
     }
 
 }
